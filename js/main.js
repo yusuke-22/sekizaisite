@@ -9,7 +9,7 @@ $(function () {
         $("header").toggleClass("click");
     });
 
-    $('.section-list').click(function () {
+    $('.section-list a').click(function () {
         $('header').removeClass('click');
     });
 
